@@ -15,7 +15,13 @@ body {
   background-color: rgb(23, 28, 40);
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
+  font-size: 1.8rem;
   color: white;
+}
+p {
+  font-size: 1.8rem;
+  color: rgb(175, 175, 191);
+  line-height: 1.5;
 }
 ::-moz-selection {
   /* Code for Firefox */
@@ -27,12 +33,19 @@ body {
   color: black;
   background: #ffdc00;
 }
+
 a,
 a:visited,
 a:link {
   color: inherit;
   text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  font-weight: 700;
+  color: inherit;
 }
+
 @media only screen and (max-width: 900px) {
   html {
     font-size: 55%;

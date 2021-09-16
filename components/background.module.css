@@ -1,0 +1,68 @@
+.background {
+  opacity: 1;
+  visibility: visible;
+}
+.background_title {
+  flex-shrink: 0;
+  width: 20rem;
+  margin-right: 10rem;
+  color: #007bff;
+  text-transform: uppercase;
+  text-align: right;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.background_content {
+  font-weight: 300;
+  width: 100%;
+  max-width: 60rem;
+}
+.background_content p {
+  margin-bottom: 2.5rem;
+}
+.background span {
+  color: white;
+  font-weight: 700;
+}
+.background_link {
+  position: relative;
+  color: white !important;
+  display: inline-block;
+}
+.background_link::after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #36363c;
+  content: "";
+  opacity: 0;
+  -webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+  transition: all 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+  transition: all 0.3s, opacity 0.3s, transform 0.3s;
+  transition: all 0.3s, opacity 0.3s, transform 0.3s, -webkit-transform 0.3s;
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+.background_link:hover::after {
+  height: 2px;
+  border-radius: 3px;
+  opacity: 1;
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+  background: #e7e7e7;
+}
+
+@media only screen and (max-width: 768px) {
+  .background_title {
+    text-align: left;
+    width: auto;
+  }
+  .background_content {
+    width: 100%;
+    max-width: 80rem;
+    padding-top: 4rem;
+    padding-left: 6rem;
+  }
+}
