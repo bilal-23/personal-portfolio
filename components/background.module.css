@@ -6,7 +6,7 @@
   flex-shrink: 0;
   width: 20rem;
   margin-right: 10rem;
-  color: #007bff;
+  color: var(--secondary-color);
   text-transform: uppercase;
   text-align: right;
   font-weight: 700;
@@ -29,13 +29,14 @@
   color: white !important;
   display: inline-block;
 }
+
 .background_link::after {
   position: absolute;
   top: 100%;
   left: 0;
   width: 100%;
   height: 3px;
-  background: #36363c;
+  background: var(--secondary-color);
   content: "";
   opacity: 0;
   -webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
@@ -51,7 +52,7 @@
   opacity: 1;
   -webkit-transform: translateY(-2px);
   transform: translateY(-2px);
-  background: #e7e7e7;
+  background: var(--secondary-color);
 }
 
 @media only screen and (max-width: 768px) {

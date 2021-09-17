@@ -6,16 +6,19 @@
   -ms-flex-pack: center;
   justify-content: center;
   padding: 10rem 17rem;
+  padding-top: 0;
 }
 
 @media only screen and (max-width: 1280px) {
   .section {
     padding: 10rem;
+    padding-top: 0;
   }
 }
 @media only screen and (max-width: 1024px) {
   .section {
     padding: 5rem;
+    padding-top: 0;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -26,5 +29,6 @@
 @media only screen and (max-width: 480px) {
   .section {
     padding: 50px 35px;
+    padding-top: 0;
   }
 }

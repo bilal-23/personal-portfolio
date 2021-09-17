@@ -1,6 +1,6 @@
 .header {
   padding: 12rem 10rem;
-  height: 100vh;
+  height: 90vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9,20 +9,66 @@
   -ms-flex-direction: column;
   flex-direction: column;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
   max-width: 140rem;
   margin: 0 auto;
+  margin-top: 15rem;
+}
+.header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url("/images/backg.svg") no-repeat;
+  background-position: right;
 }
 .header > * {
   font-weight: 400;
   letter-spacing: 2px;
   font-size: 4rem;
 }
+.header_logo {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  z-index: 2;
+  font-size: 2rem;
+  letter-spacing: -2px;
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+.header h1 {
+  font-size: 1.5rem !important;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
 .header_info {
   max-width: 100rem;
+  letter-spacing: -4px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.header_tag {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--secondary-color);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.header_details {
+  font-size: 1.2rem;
+  max-width: 25rem;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 2rem;
+  color: #797575;
 }
 .header_contact {
-  font-size: 1.5rem;
+  letter-spacing: 2px;
+  margin-top: 5rem;
+  font-size: 1.2rem;
 }
 .header_contact_link {
   -webkit-transition: all 0.2s ease-in-out;
@@ -32,20 +78,33 @@
   display: inline-block;
   padding: 8px 3px;
   text-decoration: none;
-  -webkit-box-shadow: inset 0 -3px 0 #007bff;
-  box-shadow: inset 0 -3px 0 #007bff;
+  -webkit-box-shadow: inset 0 -3px 0 var(--secondary-color);
+  box-shadow: inset 0 -3px 0 var(--secondary-color);
 }
 .header_contact_link:hover {
-  -webkit-box-shadow: inset 0 -33px 0 0 #007bff;
-  box-shadow: inset 0 -33px 0 0 #007bff;
-  color: #fff;
+  -webkit-box-shadow: inset 0 -33px 0 0 var(--secondary-color);
+  box-shadow: inset 0 -33px 0 0 var(--secondary-color);
+  color: black;
 }
 .emoji_pointer {
   font-size: 3rem;
 }
+.background_image {
+  position: relative;
+}
 
+@media only screen and (max-width: 1000px) {
+  .header:after {
+    display: none;
+  }
+}
 @media only screen and (max-width: 700px) {
   .header {
     padding: 12rem 5rem;
+  }
+  .header_contact {
+    letter-spacing: 0px;
+    margin-top: 5rem;
+    font-size: 1rem;
   }
 }

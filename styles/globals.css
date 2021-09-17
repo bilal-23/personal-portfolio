@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 
+:root {
+  --bg-color: rgb(0, 0, 0);
+  --primary-color: #ffffff;
+  --secondary-color: #09f755;
+}
+
 *,
 *::after,
 *::before {
@@ -12,15 +18,17 @@ html {
   font-size: 62.5%;
 }
 body {
-  background-color: rgb(23, 28, 40);
+  /* background-color: rgb(154, 176, 228); */
+  background-color: var(--bg-color);
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-size: 1.8rem;
-  color: white;
+  color: var(--primary-color);
 }
 p {
   font-size: 1.8rem;
-  color: rgb(175, 175, 191);
+  /* color: rgb(175, 175, 191); */
+  color: var(--primary-color);
   line-height: 1.5;
 }
 ::-moz-selection {
@@ -48,12 +56,6 @@ a:link {
 
 @media only screen and (max-width: 900px) {
   html {
-    font-size: 55%;
-  }
-}
-
-@media only screen and (max-width: 900px) {
-  html {
-    font-size: 50%;
+    font-size: 60%;
   }
 }
