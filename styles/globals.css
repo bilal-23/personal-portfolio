@@ -26,9 +26,7 @@ body {
   color: var(--primary-color);
 }
 p {
-  font-size: 1.8rem;
-  /* color: rgb(175, 175, 191); */
-  color: var(--primary-color);
+  font-size: 1.5rem;
   line-height: 1.5;
 }
 ::-moz-selection {
@@ -54,8 +52,35 @@ a:link {
   color: inherit;
 }
 
+.section_title {
+  flex-shrink: 0;
+  width: 20rem;
+  margin-right: 10rem;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  text-align: right;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.section_content {
+  font-weight: 300;
+  width: 100%;
+  max-width: 60rem;
+}
 @media only screen and (max-width: 900px) {
   html {
     font-size: 60%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section_title {
+    text-align: left;
+    width: auto;
+  }
+  .section_content {
+    width: 100%;
+    max-width: 80rem;
+    padding-top: 4rem;
+    padding-left: 6rem;
   }
 }
