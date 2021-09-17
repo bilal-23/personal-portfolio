@@ -58,6 +58,7 @@
   line-height: 4rem;
   font-family: Calibre-Medium, sans-serif;
   font-size: 4rem;
+  max-width: 90%;
   text-transform: capitalize;
 }
 .project_box h5 {
