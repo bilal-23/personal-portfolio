@@ -12,8 +12,11 @@
   max-width: 140rem;
   margin: 0 auto;
   margin-top: 15rem;
+  position: relative;
+  z-index: 2;
 }
-.header::after {
+.header_background::after {
+  z-index: 1;
   content: "";
   position: absolute;
   left: 0;
@@ -94,7 +97,7 @@
 }
 
 @media only screen and (max-width: 1000px) {
-  .header:after {
+  .header_background:after {
     display: none;
   }
 }

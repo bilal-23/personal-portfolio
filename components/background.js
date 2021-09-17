@@ -4,7 +4,7 @@ function Background() {
     return (
         <Section className={classes.background}>
             <div className={classes.background_title}>
-                BACKGROUND
+                BACKGROUND 👨‍💻
             </div>
             <div className={classes.background_content}>
                 <p>I&rsquo;m currently pursuing Engineering in Electronics and Communication at <a href="https://www.medicaps.ac.in/" className={classes.background_link} target="_blank" rel="noreferrer">Medi-Caps University.</a> I&rsquo;m also a web development mentor at <a href="https://gdsc.community.dev/medi-caps-university-indore/" className={classes.background_link} target="_blank" rel="noreferrer">Google Developer Student Club</a> on my University Campus.</p>

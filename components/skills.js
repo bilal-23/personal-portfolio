@@ -4,7 +4,7 @@ function Skills() {
     return (
         <Section>
             <div className="section_title">
-                SKILLS
+                SKILLS 🔧
             </div>
             <div className="section_content">
                 <div className={classes.skills}>
