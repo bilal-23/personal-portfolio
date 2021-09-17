@@ -1,19 +1,24 @@
 import classes from './project-box.module.css';
 
 function ProjectBox(props) {
+
+    function clickHandler() {
+        window.open(props.live, '_blank').focus();
+    }
+
     return (
-        <div className={classes.project_box}>
+        <div className={classes.project_box} onClick={clickHandler}>
             <div className={classes.project_box_link}>
-                <a href="#">
+                <a href={props.github} target="_blank" rel="noreferrer">
                     <img src="https://adeolaadeoti.netlify.app/github.a1bad59c.svg" alt="Github" />
                 </a>
-                <a href="#">
+                <a href={props.live} target="_blank" rel="noreferrer">
                     <img src="https://adeolaadeoti.netlify.app/link.66854e8a.svg" alt="Live" />
                 </a>
             </div>
             <div className={classes.project_box_content}>
                 <h3>{props.name}</h3>
-                <h5>API &nbsp; HTML/SCSS &nbsp; JS</h5>
+                <h5>{props.tech}</h5>
             </div>
 
         </div>
