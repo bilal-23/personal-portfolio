@@ -8,7 +8,7 @@ function Header() {
             <header className={classes.header}>
                 <h1>HI THERE👋, I&rsquo;m!</h1>
                 <h2 className={classes.header_info}>Md Bilal Mansuri.</h2>
-                <h3 className={classes.header_tag}>front-end developer.</h3>
+                <h3 className={classes.header_tag}>front-end developer</h3>
                 <h4 className={classes.header_details}>Front-end developer focused on building webapps with pixel perfect User Experince.</h4>
                 <div className={classes.cta}>
                     <Button>Downlod Resume</Button>
