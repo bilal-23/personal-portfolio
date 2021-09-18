@@ -1,4 +1,5 @@
 import Background from "../components/background";
+import Footer from "../components/footer";
 import Header from "../components/header";
 import OtherProjects from "../components/other-project";
 import Projects from "../components/projects";
@@ -12,6 +13,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <OtherProjects />
+      <Footer />
     </>
   )
 }

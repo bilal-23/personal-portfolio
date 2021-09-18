@@ -56,7 +56,7 @@ function OtherProjects() {
                     ]}
                     github="https://github.com/bilal-23/toDoApp" live="https://todolist-23.netlify.app/" />
                 <div className={classes.more}>
-                    <Button> <a href="https://github.com/bilal-23?tab=repositories" target="_blank" rel="noopener noreferrer">More Projects</a> </Button>
+                    <a href="https://github.com/bilal-23?tab=repositories" target="_blank" rel="noopener noreferrer"><Button> More Projects</Button></a>
                 </div>
             </div>
         </Section>
