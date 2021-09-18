@@ -1,5 +1,27 @@
-.link_wrapper {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  grid-gap: 4rem;
+.footer {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5rem 5rem;
+  padding-top: 10rem;
+  font-size: 1.3rem;
+  gap: 1rem;
+  font-weight: 600;
+  color: rgb(121, 117, 117);
+}
+.link {
+  display: inline-block;
+}
+.link {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  font-weight: 400;
+  text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
+}
+.link:hover {
+  color: var(--secondary-color) !important;
 }

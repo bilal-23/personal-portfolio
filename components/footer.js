@@ -1,23 +1,15 @@
 import classes from './footer.module.css';
-import Section from './section';
-import SocialLinks from './social-link';
-
 
 function Footer() {
     return (
-        <Section>
-            <div className="section_title">
-                On the Web 🌐
+        <footer className={classes.footer}>
+            <div className={classes.developed}>
+                Developed By <a href="https://github.com/bilal-23/personal-portfolio" target="_blank" rel="noopener noreferrer" className={classes.link}>Bilal Mansuri</a>
             </div>
-            <div className={`${classes.link_wrapper} section_content`}>
-                <SocialLinks image="github" text="github" link="https://github.com/bilal-23" />
-                <SocialLinks image="linkedin" text="linkedIn" link="https://www.linkedin.com/in/bilalmansuri" />
-                <SocialLinks image="stackoverflow" text="Stackoverflow" link="https://stackoverflow.com/users/15672769/bilal-mohammad" />
-                <SocialLinks image="codepen" text="Codepen" link="https://codepen.io/bilal-23" />
-                <SocialLinks image="twitter" text="Twitter" link="https://twitter.com/bilalmansuri2e" />
-                <SocialLinks image="gmail" text="mail" link="mailto:mansuribilal101@gmail.com" />
+            <div className={classes.design}>
+                Design by <a href="https://github.com/bchiang7/v3" target="_blank" rel="noopener noreferrer" className={classes.link}>Brittany</a> &amp; <a href="https://github.com/adeolaadeoti/adeolaadeoti-portfolio" target="_blank" rel="noopener noreferrer" className={classes.link}>Adeolaadeoti</a>
             </div>
-        </Section>
+        </footer>
     )
 }
 export default Footer;
