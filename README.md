@@ -99,4 +99,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments 🎁
 
-I want to thanks [Brittany](https://github.com/bchiang7) and [Adeola](https://github.com/adeolaadeoti) as this website designed is an amalgam of their portfolios.
+I want to thanks [Brittany](https://github.com/bchiang7) and [Adeola](https://github.com/adeolaadeoti) as this website is an amalgam of their portfolios.
