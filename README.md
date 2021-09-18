@@ -1,34 +1,102 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portolio ⚡️
 
-## Getting Started
+## A minimal portfolio template for Developers! Built with React + Next.js
 
-First, run the development server:
+<h2 align="center">
+  <img src="https://raw.githubusercontent.com/bilal-23/personal-portfolio/master/Screenshots/pic-1.png" alt="Portfolio" width="600px" />
+  <br>
+</h2>
 
-```bash
-npm run dev
-# or
-yarn dev
+## Features
+
+⚡️ Modern UI Design + Reveal Animations\
+⚡️ One Page Layout\
+⚡️ Styled with Custom CSS\
+⚡️ Fully Responsive\
+
+To view a demo example, **[click here](https://bilalmansuri.netlify.app/)**
+
+---
+
+## Need of portfolio for a developer ☝️
+
+- Professional way to showcase your work
+- Increases your visibility and online presence
+- Shows you’re more than just a resume
+
+## Getting Started 🚀
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+
+### Prerequisites 📋
+
+You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [NPM](http://npmjs.com)) installed on your computer.
+
+```
+node@v10.16.0 or higher
+npm@6.9.0 or higher
+git@2.17.1 or higher
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How To Use 🔧
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+From your command line, first clone Simplefolio:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```bash
+# Clone this repository
+$ git clone https://github.com/bilal-23/personal-portfolio
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+# Go into the repository
+$ cd personal-portfolio
 
-## Learn More
+# Remove current origin repository
+$ git remote remove origin
+```
 
-To learn more about Next.js, take a look at the following resources:
+Then you can install the dependencies either using NPM or Yarn:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Using NPM:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+# Install dependencies
+$ npm install
 
-## Deploy on Vercel
+# Start development server
+$ npm start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Once your server has started, go to this url `http://localhost:3000/` and you will see the website running on a Development Server:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<h2 align="center">
+  <img src="https://raw.githubusercontent.com/bilal-23/personal-portfolio/master/Screenshots/pic-1.png" alt="Portfolio" width="100%">
+</h2>
+
+---
+
+## Screenshots
+<div style="display: grid; grid-template-columns: 1fr 1fr;">
+  <img src="https://raw.githubusercontent.com/bilal-23/personal-portfolio/master/Screenshots/pic-4.png" alt="Home Page" width="100%">
+  <img src="https://raw.githubusercontent.com/bilal-23/personal-portfolio/master/Screenshots/pic-2.png" alt="Featured Projects" width="100%">
+   <img src="https://raw.githubusercontent.com/bilal-23/personal-portfolio/master/Screenshots/pic-3.png" alt="Social Links" width="100%">
+</div>
+
+## Deployment 📦
+
+Once you have done with your setup. You need to put your website online!
+
+I highly recommend to use [Vercel](https://vercel.com/) for deploying the site.
+
+## Technologies used 🛠️
+
+- [Webpack](https://webpack.js.org/concepts/) - Static module bundler
+- [Next.js](https://nextjs.org/) - CSS extension language
+- [React](https://reactjs.org/) - Javascript library
+- 
+
+## License 📄
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments 🎁
+
+I want to thanks [Brittany](https://github.com/bchiang7) and [Adeola](https://github.com/adeolaadeoti) as this website designed is an amalgam of their portfolios.
