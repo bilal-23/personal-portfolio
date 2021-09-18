@@ -1,9 +1,6 @@
 import classes from './header.module.css';
 import Button from './UI/button';
 function Header() {
-    function resumeDownloadHandler() {
-
-    }
     return (
         <>
             <h5 className={classes.header_logo}>bilal</h5>
@@ -14,7 +11,7 @@ function Header() {
                 <h3 className={classes.header_tag}>front-end developer</h3>
                 <h4 className={classes.header_details}>Front-end developer focused on building webapps with pixel perfect User Experince.</h4>
                 <div className={classes.cta}>
-                    <Button onClick={resumeDownloadHandler}> <a lass="resume" href="./Md-Bilal-Mansuri.pdf" target="_blank" rel="noopener noreferrer">Downlod Resume</a> </Button>
+                    <Button> <a lass="resume" href="./Md-Bilal-Mansuri.pdf" target="_blank" rel="noopener noreferrer">Downlod Resume</a> </Button>
                 </div>
                 <h3 className={classes.header_contact}> <span>Get in touch </span> <span className={classes.emoji_pointer}>👉</span><span> <a href="mailto:mansuribilal101@gmail.com" target="_blank" rel="noopener noreferrer" className={classes.header_contact_link}>mansuribilal101@gmail.com</a> </span> </h3>
             </header>

@@ -68,6 +68,24 @@ a:link {
   width: 100%;
   max-width: 60rem;
 }
+
+@media only screen and (min-width: 1550px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  html {
+    font-size: 80%;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  html {
+    font-size: 85%;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   html {
     font-size: 60%;
