@@ -6,7 +6,7 @@ function ProjectBox(props) {
     return (
         <div className={classes.project}>
             <div className={classes.project_title}>
-                <a href={props.github} target="_blank" className={classes.project_title_link}>{props.title}</a>
+                <a href={props.github} target="_blank" rel="noopener noreferrer" className={classes.project_title_link}>{props.title}</a>
                 <a href={props.github} target="_blank" rel="noopener noreferrer">
                     <img src="https://adeolaadeoti.netlify.app/github.a1bad59c.svg" alt="Github" />
                 </a>
