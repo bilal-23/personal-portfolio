@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="Bilal Mansuri" content="Frontend developer, React Developer, Javascript Developer" />
         <meta name="Md Bilal Mansuri" content="Frontend developer, React Developer, Javascript Developer" />
         <meta name="Bilal" content="portfolio, javascript, developer" />
-        <title>Md Bilal Mansuri</title>
+        <title>Bilal Mansuri</title>
       </Head>
       <Component {...pageProps} />
     </>)
