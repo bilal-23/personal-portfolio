@@ -23,11 +23,11 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <AnimatedCursor
         innerSize={10}
-        outerSize={10}
+        outerSize={12}
         color='9, 247, 85'
-        outerAlpha={0.2}
-        innerScale={1}
-        outerScale={5}
+        outerAlpha={0.4}
+        innerScale={1.1}
+        outerScale={4}
       />
       <Component {...pageProps} />
     </>)
