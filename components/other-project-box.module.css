@@ -27,7 +27,7 @@
   flex-wrap: wrap;
 }
 .project_tech_item {
-  cursor: pointer;
+  /* cursor: pointer; */
   display: inline-block;
   margin: 3px 3px 3px 0;
   font-family: Inconsolata, monospace;

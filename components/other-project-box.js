@@ -16,7 +16,7 @@ function ProjectBox(props) {
             </div>
             <p className={classes.project_description}>{props.description}</p>
             <div className={classes.project_tech}>
-                {props?.techItems?.map(item => <span key={item} className={classes.project_tech_item}>{item}</span>)}
+                {props?.techItems?.map(item => <span key={item} className={`${classes.project_tech_item} link`}>{item}</span>)}
             </div>
         </div>
     )

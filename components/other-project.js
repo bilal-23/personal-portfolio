@@ -43,7 +43,7 @@ function OtherProjects() {
     ]
     return (
         <Section>
-            <div className="section_title">
+            <div className="section_title link">
                 Other Projects
             </div>
             <div className={`${classes.projects_wrapper} section_content`}>

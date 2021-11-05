@@ -5,7 +5,6 @@
   flex-direction: column;
   justify-content: space-between;
   position: relative;
-  cursor: pointer;
 }
 .project_box:first-child {
   background: linear-gradient(180deg, #f3cbab, #feedca);

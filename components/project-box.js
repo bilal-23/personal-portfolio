@@ -7,7 +7,7 @@ function ProjectBox(props) {
     }
 
     return (
-        <div className={classes.project_box} >
+        <div className={`${classes.project_box} link`} >
             <div className={classes.project_box_link}>
                 <a href={props.github} target="_blank" rel="noopener noreferrer">
                     <img src="https://adeolaadeoti.netlify.app/github.a1bad59c.svg" alt="Github" />

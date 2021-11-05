@@ -6,7 +6,7 @@ import SocialLinks from './social-link';
 function Social() {
     return (
         <Section>
-            <div className="section_title">
+            <div className="section_title link">
                 On the Web 🌐
             </div>
             <div className={`${classes.link_wrapper} section_content`}>

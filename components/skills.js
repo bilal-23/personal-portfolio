@@ -3,13 +3,13 @@ import Section from './section';
 function Skills() {
     return (
         <Section>
-            <div className="section_title">
+            <div className="section_title link">
                 SKILLS 🔧
             </div>
             <div className="section_content">
                 <div className={classes.skills}>
                     <div className={classes.skills_category}>
-                        <div className={classes.skills_category}>LANGUAGES</div>
+                        <div className={`${classes.skills_category} link`}>LANGUAGES</div>
                         <ul>
                             <li className={classes.skills_category_item}>Javascript&#40;ES6&#41;</li>
                             <li className={classes.skills_category_item}>CSS/SCSS</li>
@@ -19,7 +19,7 @@ function Skills() {
                         </ul>
                     </div>
                     <div className={classes.skills_category}>
-                        <div className={classes.skills_category}>TOOLS</div>
+                        <div className={`${classes.skills_category} link`}>TOOLS</div>
                         <ul>
                             <li className={classes.skills_category_item}>Git &#38; Github</li>
                             <li className={classes.skills_category_item}>MongoDB</li>
@@ -29,7 +29,7 @@ function Skills() {
                         </ul>
                     </div>
                     <div className={classes.skills_category}>
-                        <div className={classes.skills_category}>FRAMEWORKS/LIBRARIES</div>
+                        <div className={`${classes.skills_category} link`}>FRAMEWORKS/LIBRARIES</div>
                         <ul>
                             <li className={classes.skills_category_item}>Next.js</li>
                             <li className={classes.skills_category_item}>React</li>

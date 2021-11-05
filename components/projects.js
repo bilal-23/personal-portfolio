@@ -24,7 +24,7 @@ function Projects() {
     ]
     return (
         <Section>
-            <div className="section_title">
+            <div className="section_title link">
                 Featured Projects 📁
             </div>
             <div className={`${classes.projects_wrapper} section_content`}>

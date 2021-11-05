@@ -3,11 +3,11 @@ import Button from './UI/button';
 function Header() {
     return (
         <>
-            <h5 className={classes.header_logo}>bilal</h5>
+            <h5 className={`${classes.header_logo} link`}>bilal</h5>
             <div className={classes.header_background}></div>
             <header className={classes.header}>
                 <h1>HI THERE👋, I&rsquo;m!</h1>
-                <h2 className={classes.header_info}>Mohammad Bilal Mansuri.</h2>
+                <h2 className={`${classes.header_info} link`}>Mohammad Bilal Mansuri.</h2>
                 <h3 className={classes.header_tag}>front-end developer</h3>
                 <h4 className={classes.header_details}>Front-end developer focused on building webapps with pixel perfect User Experince.</h4>
                 <div className={classes.cta}>

@@ -3,7 +3,7 @@ import Section from './section';
 function Background() {
     return (
         <Section className={classes.background}>
-            <div className={classes.background_title}>
+            <div className={`${classes.background_title} link`}>
                 BACKGROUND 👨‍💻
             </div>
             <div className={classes.background_content}>
