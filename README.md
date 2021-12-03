@@ -89,7 +89,7 @@ I highly recommend to use [Vercel](https://vercel.com/) for deploying the site.
 ## Technologies used 🛠️
 
 - [Webpack](https://webpack.js.org/concepts/) - Static module bundler
-- [Next.js](https://nextjs.org/) - CSS extension language
+- [Next.js](https://nextjs.org/) - Javascript framework built on top of React
 - [React](https://reactjs.org/) - Javascript library
 - 
 
