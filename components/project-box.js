@@ -10,10 +10,10 @@ function ProjectBox(props) {
         <div className={`${classes.project_box} link`} >
             <div className={classes.project_box_link}>
                 <a href={props.github} target="_blank" rel="noopener noreferrer">
-                    <img src="https://adeolaadeoti.netlify.app/github.a1bad59c.svg" alt="Github" />
+                    <img src="/github.svg" alt="Github" />
                 </a>
                 <a href={props.live} target="_blank" rel="noopener noreferrer">
-                    <img src="https://adeolaadeoti.netlify.app/link.66854e8a.svg" alt="Live" />
+                    <img src="/link.svg" alt="Live" />
                 </a>
             </div>
             <div className={classes.project_box_content} onClick={clickHandler}>

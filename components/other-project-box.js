@@ -8,10 +8,10 @@ function ProjectBox(props) {
             <div className={classes.project_title}>
                 <a href={props.github} target="_blank" rel="noopener noreferrer" className={classes.project_title_link}>{props.title}</a>
                 <a href={props.github} target="_blank" rel="noopener noreferrer">
-                    <img src="https://adeolaadeoti.netlify.app/github.a1bad59c.svg" alt="Github" />
+                    <img src="/github.svg" alt="Github" />
                 </a>
                 <a href={props.live} target="_blank" rel="noopener noreferrer">
-                    <img src="https://adeolaadeoti.netlify.app/link.66854e8a.svg" alt="Live" />
+                    <img src="/link.svg" alt="Live" />
                 </a>
             </div>
             <p className={classes.project_description}>{props.description}</p>
