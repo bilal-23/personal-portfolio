@@ -15,7 +15,7 @@ function OtherProjects() {
         {
             name: "Weather App",
             description: "Simple javascript app to query about weather of different cities.",
-            techItems: ['Javascript', "TMDB API", "CSS", "HTML"],
+            techItems: ['Javascript', "CSS", "HTML"],
             github: "https://github.com/bilal-23/Weather-App",
             live: "https://vetero.netlify.app/"
         },
