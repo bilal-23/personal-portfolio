@@ -9,7 +9,7 @@ function Header() {
                 <h1>HI THERE👋, I&rsquo;m!</h1>
                 <h2 className={`${classes.header_info} link`}>Mohammad Bilal Mansuri.</h2>
                 <h3 className={classes.header_tag}>front-end developer</h3>
-                <h4 className={classes.header_details}>Front-end developer focused on building webapps with pixel perfect User Experince.</h4>
+                <h4 className={classes.header_details}>Front-end developer focused on building webapps with pixel perfect User Interface.</h4>
                 <div className={classes.cta}>
                     <Button> <a className="resume" href="https://drive.google.com/file/d/1Q6tEXcCoDRuvu7YCt0CrlB7AxAEwCmZ4/view?usp=sharing" target="_blank" rel="noopener noreferrer">Downlod Resume</a> </Button>
                 </div>
