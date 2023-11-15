@@ -33,6 +33,8 @@ function Skills() {
                         <ul>
                             <li className={classes.skills_category_item}>Next.js</li>
                             <li className={classes.skills_category_item}>React</li>
+                            <li className={classes.skills_category_item}>TailwindCSS</li>
+                            <li className={classes.skills_category_item}>React Query</li>
                             <li className={classes.skills_category_item}>Redux</li>
                             <li className={classes.skills_category_item}>React-Router</li>
                             <li className={classes.skills_category_item}>Material-UI</li>

@@ -11,14 +11,13 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1,shrink-to-fit=no"
         />
-        <meta name="Bilal Mansuri" content="Frontend developer, React Developer, Javascript Developer" />
-        <meta name="Md Bilal Mansuri" content="Frontend developer, React Developer, Javascript Developer" />
-        <meta name="Bilal" content="portfolio, javascript, developer" />
+        <meta name="title" content="Md Bilal Mansuri, Frontend developer, React Developer, Javascript Developer" />
+        <meta name="description" content="Frontend developer, React Developer, Javascript Developer" />
         <title>Bilal Mansuri</title>
       </Head>
       <AnimatedCursor

@@ -4,6 +4,18 @@ import Section from './section';
 function Projects() {
     const projects = [
         {
+            name: "Emojica",
+            tech: "Next.js, React Query, Tailwind CSS, Mongodb",
+            github: "https://github.com/bilal-23/Emojica",
+            live: "https://emojica.vercel.app/"
+        },
+        {
+            name: "Vestir",
+            tech: "ReactJs, Next.js , React Router, Mongodb",
+            github: "https://github.com/bilal-23/Vestir-E-Commerce",
+            live: "https://vestir-clothing.vercel.app/"
+        },
+        {
             name: "Neuro Shop",
             tech: "Next.js, Mongodb, CSS",
             github: "https://github.com/bilal-23/neuro-shop",
@@ -14,12 +26,6 @@ function Projects() {
             tech: "React, TMDB API, SCSS",
             github: "https://github.com/bilal-23/netflix-clone",
             live: "https://netflixclone23.netlify.app/"
-        },
-        {
-            name: "Twitter Clone",
-            tech: "React, Firebase, SCSS",
-            github: "https://github.com/bilal-23/twitter-clone",
-            live: "https://twitterclone23.netlify.app/"
         },
     ]
     return (
